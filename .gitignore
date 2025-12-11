@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE# ---------------------------
+     ## PYTHON
+     ## ---------------------------
+     #__pycache__/
+     #*.pyc
+     #*.pyo
+     #*.pyd
+     #
+     ## Virtual environments
+     #.venv/
+     #venv/
+     #env/
+     #
+     ## Distribution / packaging
+     #build/
+     #dist/
+     #*.egg-info/
+     #
+     ## ---------------------------
+     ## IDE SETTINGS
+     ## ---------------------------
+     ## PyCharm
+     #.idea/
+     #*.iml
+     #
+     ## VSCode
+     #.vscode/
+     #
+     ## ---------------------------
+     ## AUTOMATION OUTPUT
+     ## ---------------------------
+     #screenshots/
+     #logs/
+     #reports/
+     #*.png
+     #*.log
+     #
+     ## Behave output
+     #.test-reports/
+     #allure-report/
+     #allure-results/
+     #
+     ## ---------------------------
+     ## WEB DRIVER + BROWSER STUFF
+     ## ---------------------------
+     ## Chrome user data directory
+     #C:/Temp/ChromeAutomationProfile/
+     #ChromeAutomationProfile/
+     #
+     ## WebDriver manager cache
+     #.wdm/
+     #webdriver/
+     #drivers/
+     #
+     ## ---------------------------
+     ## OS / SYSTEM FILES
+     ## ---------------------------
+     #.DS_Store
+     #Thumbs.db
+     #
+     ## ---------------------------
+     ## YOUR PROJECT SPECIFIC
+     ## ---------------------------
+     ## Do NOT commit CSV test data? (optional)
+     ## data/*.csv
+.idea/
+
+# Pytest
+.pytest_cache/
+
+# Test Artifacts
+screenshots/
+
+# Docker
+*.log
